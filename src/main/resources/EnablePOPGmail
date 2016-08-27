@@ -1,0 +1,35 @@
+Enabling POP
+
+You can read your Gmail messages from a client or device that supports POP, like Microsoft Outlook.
+
+Step 1: Enable POP in Gmail
+Sign in to Gmail.
+At the top right, click Settings Gear icon.
+Click Forwarding and POP/IMAP.
+Select Enable POP for all mail or Enable POP for mail that arrives from now on.
+Choose what to do with your messages after your POP client or device receives them. We recommend the first option, keeping Gmail’s copy in the inbox.
+Click Save Changes.
+Although the radio button next to your selected option may not stay selected, Gmail displays the status next to 'POP Status:.' When you enable POP, your settings display 'POP Status: POP is enabled.'
+
+If your POP settings are turned off, the status will indicate that POP is disabled.
+
+Once you've enabled POP in your Gmail settings, you need to configure your client.
+
+Step 2: Configure client
+Go to your client (e.g., Microsoft Outlook) and make sure these settings are correct.
+
+Incoming Mail (POP) Server:	pop.gmail.com
+Requires SSL: Yes
+Port: 995
+Outgoing Mail (SMTP) Server:	smtp.gmail.com
+Requires SSL: Yes
+Requires TLS: Yes (if available)
+Requires Authentication: Yes
+Port for SSL: 465
+Port for TLS/STARTTLS: 587
+Server timeouts	Greater than 1 minute, we recommend 5
+Full Name or Display Name:	[your name]
+Account Name or User Name:	your full email address (including @gmail.com or @your_domain.com)
+Email Address:	your full email address (including @gmail.com or @your_domain.com)
+Password:	your Gmail password
+Unless you're using recent mode to download mail to multiple clients, make sure you've opted not to leave messages on the server. Your POP settings in Gmail determine whether or not messages stay on the server, so changing the setting in the client won't make a difference.
