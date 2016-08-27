@@ -13,6 +13,8 @@
         <springsecurity.version>4.0.4.RELEASE</springsecurity.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
         <mysql.connector.version>5.1.31</mysql.connector.version>
+        <fileupload>1.3.1</fileupload>
+
     </properties>
   <dependencies>
 
@@ -145,6 +147,13 @@
           <artifactId>webapp-runner</artifactId>
           <version>8.0.30.1</version>
           <scope>provided</scope>
+      </dependency>
+
+      <!--filesUpload-->
+      <dependency>
+          <groupId>commons-fileupload</groupId>
+          <artifactId>commons-fileupload</artifactId>
+          <version>${fileupload}</version>
       </dependency>
   </dependencies>
   <build>

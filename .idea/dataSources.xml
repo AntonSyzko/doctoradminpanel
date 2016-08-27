@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3228798620">
+  <component name="DataSourceManagerImpl" format="xml" hash="1201495166">
     <data-source source="LOCAL" name="MySQL - heroku_794ab8454fae602@us-cdbr-iron-east-04.cleardb.net" uuid="bf235b56-87b9-4335-a27f-11552578aae4">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -14,6 +14,7 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
         <property name="requireSSL" value="true" />
+        <property name="useSSL" value="true" />
       </driver-properties>
     </data-source>
   </component>

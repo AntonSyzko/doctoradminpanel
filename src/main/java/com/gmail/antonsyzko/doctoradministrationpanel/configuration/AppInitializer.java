@@ -57,7 +57,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
     /*Set these variables for your project needs*/
 
 	//	private static final String LOCATION = "D:\\IdeaProjects\\FileDownloadToDatabase\\src\\main\\resources\\FilesStorage";
-	private static final String LOCATION = "heroku_794ab8454fae602.user_document";
+	private static final String LOCATION = "heroku_794ab8454fae602@us-cdbr-iron-east-04.cleardb.net";
 
 	private static final long MAX_FILE_SIZE = 1024 * 1024 * 64;//25MB
 
