@@ -14,6 +14,10 @@
           <file>file://$MODULE_DIR$/src/main/java/com/gmail/antonsyzko/doctoradministrationpanel/configuration/AppConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/gmail/antonsyzko/doctoradministrationpanel/configuration/HibernateConfiguration.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/gmail/antonsyzko/doctoradministrationpanel/security/SecurityConfiguration.java</file>
+          <file>jar://$MAVEN_REPOSITORY$/io/netty/netty/3.5.5.Final/netty-3.5.5.Final.jar!/org/jboss/netty/container/spring/beans.xml</file>
+          <file>file://$MAVEN_REPOSITORY$/io/netty/netty/3.5.5.Final/netty-3.5.5.Final.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/github/jsimone/webapp-runner/8.0.30.1/webapp-runner-8.0.30.1.jar!/org/jboss/netty/container/spring/beans.xml</file>
+          <file>file://$MAVEN_REPOSITORY$/com/github/jsimone/webapp-runner/8.0.30.1/webapp-runner-8.0.30.1.jar</file>
         </fileset>
       </configuration>
     </facet>
