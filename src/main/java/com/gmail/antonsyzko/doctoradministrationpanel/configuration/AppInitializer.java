@@ -50,14 +50,16 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 	}
 
 	private MultipartConfigElement getMultipartConfigElement(){
+
 		MultipartConfigElement multipartConfigElement = new MultipartConfigElement(LOCATION, MAX_FILE_SIZE, MAX_REQUEST_SIZE, FILE_SIZE_THRESHOLD);
+
 		return multipartConfigElement;
 	}
 
     /*Set these variables for your project needs*/
 
 	//	private static final String LOCATION = "D:\\IdeaProjects\\FileDownloadToDatabase\\src\\main\\resources\\FilesStorage";
-	private static final String LOCATION = "FileStorage";
+	private static final String LOCATION = null;
 
 	private static final long MAX_FILE_SIZE = 1024 * 1024 * 64;//25MB
 
