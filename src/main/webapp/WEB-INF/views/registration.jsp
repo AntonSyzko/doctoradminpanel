@@ -24,7 +24,7 @@
 
 
 	<script type="text/javascript">
-		$(function() { $( ".datepicker" ).datepicker({ dateFormat: 'yyyy-mm-dd' }); });
+		$(function() { $( ".datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' }); });
 	</script>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js" type="text/javascript"></script>
