@@ -54,7 +54,7 @@ public class User implements Serializable{
 
 	@NotNull
 	@Column(name = "joining_date",nullable = false)
-	@DateTimeFormat(pattern="yy-MM-dd")
+	@DateTimeFormat(pattern="yyyy-MM-dd")
 	@Temporal(TemporalType.DATE)
 	private Date joining_date;
 
